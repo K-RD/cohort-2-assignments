@@ -10,35 +10,41 @@ function getLength(str) {
   console.log("Original String:", str);
   console.log("Length:", str.length);
 }
-getLength("Hello World");
+// getLength("Hello World");
+// getLength("Robind Kumar");
 
 // indexOf
 function findIndexOf(str, target) {
   console.log("Original String:", str);
+  console.log("Starting index of :", target);
   console.log("Index:", str.indexOf(target));
 }
-findIndexOf("Hello World", "World");
+// findIndexOf("Robind Kumar",'n');
+// findIndexOf("Hello World", "World");
 
 // lastIndexOf
 function findLastIndexOf(str, target) {
   console.log("Original String:", str);
+  console.log("Last index of :", target);
   console.log("Index:", str.lastIndexOf(target));
 }
-findLastIndexOf("Hello World World", "World");
+// findLastIndexOf("Hello World World", "World");
+// findIndexOf("Robindrobind Kumarkumar",'a')
+// findLastIndexOf("Robindrobind Kumarkumar",'a')
 
 // slice
 function getSlice(str, start, end) {
   console.log("Original String:", str);
   console.log("After slice:", str.slice(start, end));
 }
-getSlice("Hello World", 0, 5);
+// getSlice("Robindrobind Kumarkumar", 0, 12);
 
 // substring
 function getSubstring(str, start, end) {
   console.log("Original String:", str);
   console.log("After substring:", str.substring(start, end));
 }
-getSubstring("Hello World", 0, 5);
+getSubstring("Robindrobind Kumarkumar", 0, 12);
 
 // replace
 function replaceString(str, target, replacement) {
